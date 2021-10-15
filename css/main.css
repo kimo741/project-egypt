@@ -1,0 +1,267 @@
+/* header */
+:root {
+  --main-color: rgba(126, 3, 3, 0.849);
+  --sec-color: #4a4c4d;
+  --liner-medel :#1a0406;
+  --bg-color:#666;
+  
+}
+body {
+  background-color: #f8f8f8;
+}
+* {
+  transition: all 0.5s ease-in-out !important;
+}
+.bg-career {
+  position: relative;
+  max-height: 100% !important;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-career img:hover {
+  transform: scale(1.1) !important;
+  padding-right: 80px;
+  padding-top: 40px;
+  opacity: 0.9;
+}
+.bg-career img {
+  margin-top: 25vh;
+  opacity: 0.4;
+  width: 90%;
+  height: 60%;
+}
+
+.bg-career .career-header h2 {
+  text-align: start;
+  margin-top: 50vh;
+  padding-left: 3rem;
+  font-weight: bold;
+  font-size: 5rem;
+  color: var(--bg-color);
+  letter-spacing: 2px;
+  font-family:sans-serif;
+}
+.bg-career .career-header h2 span{
+padding-top: 50px;
+}
+
+
+
+
+.bg-career .career-header span a {
+  text-align: start;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: var( --bg-color);
+  padding-top: 5rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+.bg-career .career-header span:first-of-type {
+  padding-left: 3rem;
+}
+
+.career .col-lg-7 {
+  padding: 0;
+  margin: 0;
+}
+.career .col-lg-7 a:first-child {
+  padding: 0;
+  width: 80%;
+  margin-left: 2rem;
+}
+.career .col-lg-7 a {
+  border: none;
+  width: 80%;
+  margin-left: 2rem;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0),
+    var(--liner-medel),
+    var(--main-color));
+  height: 3.5rem;
+  font-weight: bold;
+  color: whitesmoke !important;
+  font-size: 1.5rem;
+}
+.career .col-lg-7 a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--main-color),
+    var(--liner-medel),
+    rgba(0, 0, 0, 0.959)
+  );
+  border: none;
+  margin-right: 10px;
+}
+
+.career .col-lg-7 span img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1rem;
+}
+.career .active {
+  display: block;
+}
+
+.career .card {
+  width: 80%;
+  margin-left: 4.3rem;
+  padding: 0 !important;
+  background-color: whitesmoke;
+  z-index: 0;
+}
+.career .card-body {
+  padding: 0;
+  display: none;
+}
+.career {
+  perspective: 600px;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.career .card-body p {
+  width: 80%;
+  margin: 0;
+  padding: 15px 50px;
+  font-size: 1.2rem;
+  color: rgba(71, 71, 71, 0.952);
+}
+.career h2,
+.contact-us h2 {
+  font-size: 3rem;
+  padding: 5rem;
+  color: rgba(126, 3, 3, 0.849);
+}
+#file {
+  border: solid rgb(206 212 218) 1px;
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  height: 3rem;
+}
+#file a {
+  background-color: rgb(83, 78, 78);
+  color: blanchedalmond;
+  border-radius: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 100;
+  padding-bottom: 1px;
+  border-radius: 5px;
+}
+.career .Join-us-now {
+  background-color: #f1f2f2;
+}
+#file span {
+  color: rgb(83, 78, 78);
+  padding: 0;
+  padding-left: 20px;
+  font-size: 1rem;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+#inlineFormCustomSelectPref {
+  width: 100%;
+  border: solid rgb(206 212 218) 1px !important;
+}
+.join-us .form-group {
+  padding-top: 10px;
+}
+
+.join-us .form-control {
+  height: 3.5rem;
+  text-indent: 3rem !important;
+  border: solid rgb(206 212 218) 1px !important;
+}
+.join-us div {
+  padding: 1rem 2rem;
+}
+.join-us button {
+  width: 100%;
+  color: var(--main-color);
+  background-color: transparent;
+  border: solid var(--main-color) 2px;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.join-us button:hover {
+  border: solid red 1px !important;
+  color: red;
+  background-color: transparent;
+}
+.join-us p {
+  padding: 1rem 3rem;
+  color: rgb(65, 62, 62);
+}
+form input[type="text"],
+form input[type="tel"],
+form input[type="file"],
+form input[type="email"],
+.join-us #inlineFormCustomSelectPref,
+.join-us #exampleFormControlTextarea1,
+.join-us .cauntry,
+.join-us .cauntry option {
+  box-shadow: none;
+  border: solid rgb(206 212 218) 1px !important;
+}
+form input[type="text"]:focus-visible,
+form input[type="tel"]:focus-visible,
+form input[type="file"]:focus-visible,
+form input[type="email"]:focus-visible,
+.join-us #inlineFormCustomSelectPref:focus-visible,
+.join-us #exampleFormControlTextarea1:focus-visible,
+.join-us .cauntry:focus-visible,
+#file:focus-visible {
+  box-shadow: rgb(7, 0, 0) 3px 3px 4px 1px;
+  transform: scale(1.02);
+}
+form input[type="text"]:hover,
+form input[type="tel"]:hover,
+form input[type="file"]:hover,
+form input[type="email"]:hover,
+.join-us #inlineFormCustomSelectPref:hover,
+.join-us #exampleFormControlTextarea1:hover,
+.join-us .cauntry:hover,
+#file:hover {
+  box-shadow: var(--main-color) -3px -3px 4px 1px;
+}
+.contact-us .card {
+  border: 0;
+  padding: 3rem 3rem;
+  border-top: rgba(102, 102, 102, 0.281) 1px solid;
+}
+.contact-us .card-body p {
+  padding: 1.2rem 0;
+  font-size: 1.4rem;
+  color: #666;
+  text-justify: newspaper;
+}
+.contact-us .card-body p i {
+  color:var(--main-color) !important;
+}
+.contact-us .card-body p:first-of-type {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+form textarea {
+  text-indent: 3rem !important;
+  height: 9rem !important;
+}
+.leave-message {
+  background-color: var(--bg-color);
+}
+@media (max-width: 600px) {
+  .bg-career img {
+    display: none !important;
+  }
+  .bg-career h2 {
+    font-size: 3rem;
+  }
+}
